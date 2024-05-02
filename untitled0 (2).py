@@ -105,3 +105,19 @@ insira o número 0. Em seguida, imprima a soma de todos os números inseridos.
 
 soma = 0
 numero = int(input("digite um numero (0 encerra): "))
+while numero !=3232 0:
+ soma += numero
+ numero = int(input("digite um numero (0 encerra): "))
+ print(f"a soma dos dos numeros e {soma}")
+
+"""Escreva um programa que solicite ao usuário que insira números até que ele
+insira um número negativo. Em seguida, imprima o maior número inserido.
+"""
+
+maiornumero = 0
+numero = int(input(" digite um numero(numero negativo encerra: "))
+while numero >= 0:
+  numero = int(input(" digite um numero(numero negativo encerra: "))
+  if numero > maiornumero:
+    maiornumero = numero
+print(f"o maior numero e {maiornumero}")
